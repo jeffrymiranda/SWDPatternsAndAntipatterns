@@ -13,16 +13,14 @@ namespace Test
         {
         }
         [Test]
-        public void TestMethod1()
+        public void TestMain()
         {
-            using (var sw = new StringWriter())
-            {
-                Console.SetOut(sw);
-                Core.Program.Main();
+            using var sw = new StringWriter();
+            Console.SetOut(sw);
+            Core.Program.Main();
 
-                var result = sw.ToString().Trim();
-                Assert.AreEqual(Expected, result);
-            }
+            var result = sw.ToString().Trim();
+            Assert.AreEqual(Expected, result);
         }
     }
 }
