@@ -17,8 +17,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="ObserverPattern\" />
+    <None Remove="SingletonPattern\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ObserverPattern\" />
+    <Folder Include="SingletonPattern\" />
   </ItemGroup>
 </Project>
