@@ -5,4 +5,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ObserverPattern\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ObserverPattern\" />
+  </ItemGroup>
 </Project>
