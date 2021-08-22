@@ -20,11 +20,13 @@
     <None Remove="SingletonPattern\" />
     <None Remove="BuilderPattern\" />
     <None Remove="FactoryPattern\" />
+    <None Remove="AdapterPattern\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ObserverPattern\" />
     <Folder Include="SingletonPattern\" />
     <Folder Include="BuilderPattern\" />
     <Folder Include="FactoryPattern\" />
+    <Folder Include="AdapterPattern\" />
   </ItemGroup>
 </Project>
